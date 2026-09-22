@@ -38,7 +38,7 @@ SharePoint (or OneDrive/YouTube) link:
 Leave a URL as `""` (empty) if there's nothing to link to yet — the label
 will show as plain text instead of a clickable link.
 
-## Publishing on GitHub Pages (For reference, changed published automatically) 
+## Publishing on GitHub Pages (For reference, changes published automatically) 
 
 1. In the repository, go to **Settings → Pages**.
 2. Under "Build and deployment", set **Source** to "Deploy from a branch".
