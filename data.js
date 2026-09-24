@@ -76,10 +76,10 @@ const SITE_DATA = {
       date: "September 23, 2026",
       topic: "Product Engineering",
       presenter: "Aaron Pressley",
-      recordingLabel: "CBS Engineering Unplugged- GroupLevelQuality.mp4",
-      recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQBBUamRhZPlTJxXQsb7VVIuAf5iYaELfF3wabwA672sBwE?e=F3Zz3f",
-      slidesLabel: "Quality Strategy 2026-7 RevE- Kevin Johnson.pptx",
-      slidesUrl: "https://amphenolfci.sharepoint.com/:p:/s/CBS-SharePoint-Site/IQBbWMYQZGEdQrFA6Olb0XJhAbmGswSXRBL2wFy1cNryo54?e=J7jcsC"
+      recordingLabel: "CBS Engineering Unplugged- Product Engineering.mp4",
+      recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQC_tYldedjVSZrJihQOVOdLAVGAh3qcnzsm12WuZxkKUd4?e=vPrX3p",
+      slidesLabel: "Product Engineering - Aaron Pressley.pptx",
+      slidesUrl: "https://amphenolfci.sharepoint.com/:p:/s/CBS-SharePoint-Site/IQDqoXrjX5MpR7vigS7MbikhATXfliJ2uRgFy-L--1oPLp4?e=1rww1g"
     }
   ],
 
