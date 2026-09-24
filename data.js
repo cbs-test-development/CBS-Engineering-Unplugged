@@ -42,8 +42,8 @@ const SITE_DATA = {
 
   // ---- Upcoming Session (single, most recent) ----
   // "date" and "time" are used to build the live countdown banner at the
-  // top of the page. Keep "time" in the format "3:00 PM EST" — the
-  // countdown understands EST/EDT automatically.
+  // top of the page. Keep "time" in the format "3:00 PM EST" (or EDT).
+  // EST/EDT both mean Eastern Time; daylight saving is applied from the date.
   upcomingSession: {
     date: "October 7th, 2026",
     time: "3:00 PM EST",

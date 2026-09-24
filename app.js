@@ -14,20 +14,93 @@ function linkOrText(label, url) {
   return `<span class="muted-text">${label}</span>`;
 }
 
+const IANA_ZONES = {
+  EST: "America/New_York",
+  EDT: "America/New_York",
+  CST: "America/Chicago",
+  CDT: "America/Chicago",
+  MST: "America/Denver",
+  MDT: "America/Denver",
+  PST: "America/Los_Angeles",
+  PDT: "America/Los_Angeles"
+};
+
+const MONTHS = {
+  january: 1, february: 2, march: 3, april: 4, may: 5, june: 6,
+  july: 7, august: 8, september: 9, october: 10, november: 11, december: 12
+};
+
+// Offset of an IANA zone at a UTC instant, using the browser's TZ database
+// so future DST rule changes are picked up automatically.
+function timeZoneOffsetMs(utcMs, timeZone) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    hourCycle: "h23",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit"
+  }).formatToParts(new Date(utcMs));
+
+  const value = {};
+  parts.forEach(part => {
+    if (part.type !== "literal") value[part.type] = part.value;
+  });
+
+  const asUTC = Date.UTC(
+    Number(value.year),
+    Number(value.month) - 1,
+    Number(value.day),
+    Number(value.hour),
+    Number(value.minute),
+    Number(value.second)
+  );
+  return asUTC - utcMs;
+}
+
+// Converts a wall-clock time in a named zone (e.g. 3:00 PM Eastern) to a Date.
+function zonedLocalDate(year, month, day, hour, minute, timeZone) {
+  const utcGuess = Date.UTC(year, month - 1, day, hour, minute, 0);
+  const corrected = utcGuess - timeZoneOffsetMs(utcGuess, timeZone);
+  return new Date(utcGuess - timeZoneOffsetMs(corrected, timeZone));
+}
+
 // Parses strings like "September 23rd, 2026" + "3:00 PM EST" into a Date.
+// EST/EDT mean Eastern Time (America/New_York); DST is taken from the date,
+// not from the abbreviation, so spring/fall switches stay correct.
 function parseSessionDateTime(dateStr, timeStr) {
   const cleanDate = dateStr.replace(/(\d+)(st|nd|rd|th)/, "$1");
-  const zoneOffsets = { EST: "-05:00", EDT: "-04:00", CST: "-06:00", CDT: "-05:00" };
-  let offset = "-05:00";
   let timePart = timeStr || "12:00 PM EST";
-  Object.keys(zoneOffsets).forEach(zone => {
-    if (timePart.includes(zone)) {
-      offset = zoneOffsets[zone];
-      timePart = timePart.replace(zone, "").trim();
+  let timeZone = "America/New_York";
+
+  Object.keys(IANA_ZONES).forEach(abbr => {
+    if (timePart.includes(abbr)) {
+      timeZone = IANA_ZONES[abbr];
+      timePart = timePart.replace(abbr, "").trim();
     }
   });
-  const combined = `${cleanDate} ${timePart} GMT${offset.replace(":", "")}`;
-  const parsed = new Date(combined);
+
+  const dateMatch = cleanDate.match(/^([A-Za-z]+)\s+(\d+),\s+(\d+)$/);
+  const timeMatch = timePart.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/i);
+  if (!dateMatch || !timeMatch) return null;
+
+  const month = MONTHS[dateMatch[1].toLowerCase()];
+  const day = Number(dateMatch[2]);
+  const year = Number(dateMatch[3]);
+  let hour = Number(timeMatch[1]);
+  const minute = Number(timeMatch[2]);
+  const meridiem = timeMatch[3].toUpperCase();
+  if (!month || hour < 1 || hour > 12) return null;
+
+  if (meridiem === "AM") {
+    if (hour === 12) hour = 0;
+  } else if (hour !== 12) {
+    hour += 12;
+  }
+
+  const parsed = zonedLocalDate(year, month, day, hour, minute, timeZone);
   return isNaN(parsed.getTime()) ? null : parsed;
 }
 
