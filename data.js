@@ -71,13 +71,21 @@ const SITE_DATA = {
       recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQBBUamRhZPlTJxXQsb7VVIuAf5iYaELfF3wabwA672sBwE?e=F3Zz3f",
       slidesLabel: "Quality Strategy 2026-7 RevE- Kevin Johnson.pptx",
       slidesUrl: "https://amphenolfci.sharepoint.com/:p:/s/CBS-SharePoint-Site/IQBbWMYQZGEdQrFA6Olb0XJhAbmGswSXRBL2wFy1cNryo54?e=J7jcsC"
+    },
+    {
+      date: "September 23rd, 2026",
+      topic: "Prduct Engineering",
+      presenter: "Aaron Pressley",
+      recordingLabel: "CBS Engineering Unplugged- GroupLevelQuality.mp4",
+      recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQBBUamRhZPlTJxXQsb7VVIuAf5iYaELfF3wabwA672sBwE?e=F3Zz3f",
+      slidesLabel: "Quality Strategy 2026-7 RevE- Kevin Johnson.pptx",
+      slidesUrl: "https://amphenolfci.sharepoint.com/:p:/s/CBS-SharePoint-Site/IQBbWMYQZGEdQrFA6Olb0XJhAbmGswSXRBL2wFy1cNryo54?e=J7jcsC"
     }
   ],
 
   // ---- Proposed Upcoming Topics and Speakers ----
   // (may change based on speaker availability)
   proposedTopics: [
-    { presenter: "Aaron Pressly", topic: "Product Engineering", date: "09/23/26" },
     { presenter: "JR Racines", topic: "SI for 224G and emerging technologies", date: "10/07/26" },
     { presenter: "Derrick Brickner", topic: "Manufacturing and Factory Fundamentals", date: "10/21/26" },
     { presenter: "Patrick Mathews", topic: "Customer applications and real-world challenges", date: "11/04/26" },
