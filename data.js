@@ -45,10 +45,10 @@ const SITE_DATA = {
   // top of the page. Keep "time" in the format "3:00 PM EST" — the
   // countdown understands EST/EDT automatically.
   upcomingSession: {
-    date: "September 23rd, 2026",
+    date: "October 7th, 2026",
     time: "3:00 PM EST",
-    topic: "Product Engineering",
-    presenter: "Aaron Pressly"
+    topic: "SI for 224G and emerging technologies",
+    presenter: "JR Racines"
   },
 
   // ---- Session Archive (past sessions with recordings/slides) ----
@@ -73,8 +73,8 @@ const SITE_DATA = {
       slidesUrl: "https://amphenolfci.sharepoint.com/:p:/s/CBS-SharePoint-Site/IQBbWMYQZGEdQrFA6Olb0XJhAbmGswSXRBL2wFy1cNryo54?e=J7jcsC"
     },
     {
-      date: "September 23rd, 2026",
-      topic: "Prduct Engineering",
+      date: "September 23, 2026",
+      topic: "Product Engineering",
       presenter: "Aaron Pressley",
       recordingLabel: "CBS Engineering Unplugged- GroupLevelQuality.mp4",
       recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQBBUamRhZPlTJxXQsb7VVIuAf5iYaELfF3wabwA672sBwE?e=F3Zz3f",
