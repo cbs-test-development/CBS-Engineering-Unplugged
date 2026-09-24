@@ -26,7 +26,7 @@ const SITE_DATA = {
     tagline: "REAL ENGINEERING. REAL KNOWLEDGE. UNFILTERED.",
     paragraphs: [
       "CBS Engineering Unplugged is a biweekly forum designed to help us better understand the technologies, products, processes, and people that drive our business.",
-      "These sessions are led by subject matter experts from across our extended engineering organization and are open to Product Line Managers and all other CBS team members interested in expanding their technical and business knowledge. Whether you're new to the team building your technical foundation, or an experienced team member looking to deepen existing knowledge and gain exposure to areas outside your day-to-day role, these sessions are for you.",
+      "These sessions are led by subject matter experts from across our extended engineering organization and are open to Product Line Managers and all other CBS team members interested in expanding their technical and business knowledge. Whether you're new to the team, building your technical foundation, or an experienced team member looking to deepen existing knowledge and gain exposure to areas outside your day-to-day role, these sessions are for you.",
       "We encourage everyone to participate, ask questions, share experiences, and suggest future topics. Feel free to invite other CBS team members who may benefit."
     ]
   },
