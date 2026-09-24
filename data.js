@@ -77,9 +77,9 @@ const SITE_DATA = {
       topic: "Product Engineering",
       presenter: "Aaron Pressley",
       recordingLabel: "CBS Engineering Unplugged- Product Engineering.mp4",
-      recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQC_tYldedjVSZrJihQOVOdLAVGAh3qcnzsm12WuZxkKUd4?e=vPrX3p",
+      recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQC_tYldedjVSZrJihQOVOdLAVGAh3qcnzsm12WuZxkKUd4?e=2uUTDp",
       slidesLabel: "Product Engineering - Aaron Pressley.pptx",
-      slidesUrl: "https://amphenolfci.sharepoint.com/:p:/s/CBS-SharePoint-Site/IQDqoXrjX5MpR7vigS7MbikhATXfliJ2uRgFy-L--1oPLp4?e=1rww1g"
+      slidesUrl: "https://amphenolfci.sharepoint.com/:p:/s/CBS-SharePoint-Site/IQDqoXrjX5MpR7vigS7MbikhATXfliJ2uRgFy-L--1oPLp4?e=zAUqsf"
     }
   ],
 
