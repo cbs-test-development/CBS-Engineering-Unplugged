@@ -73,7 +73,7 @@ const SITE_DATA = {
       slidesUrl: "https://amphenolfci.sharepoint.com/:p:/s/CBS-SharePoint-Site/IQBbWMYQZGEdQrFA6Olb0XJhAbmGswSXRBL2wFy1cNryo54?e=J7jcsC"
     },
     {
-      date: "September 23, 2026",
+      date: "September 23rd, 2026",
       topic: "Product Engineering",
       presenter: "Aaron Pressley",
       recordingLabel: "CBS Engineering Unplugged- Product Engineering.mp4",
