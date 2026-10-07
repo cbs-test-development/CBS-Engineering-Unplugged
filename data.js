@@ -87,7 +87,7 @@ const SITE_DATA = {
   // (may change based on speaker availability)
   proposedTopics: [
     { presenter: "JR Racines", topic: "SI for 224G and emerging technologies", date: "10/07/26" },
-    { presenter: "Derrick Brickner", topic: "Manufacturing and Factory Fundamentals", date: "10/21/26" },
+    { presenter: "Derek Brickner", topic: "Manufacturing and Factory Fundamentals", date: "10/21/26" },
     { presenter: "Patrick Mathews", topic: "Customer applications and real-world challenges", date: "11/04/26" },
     { presenter: "Steve Blasko", topic: "Signal Integrity fundamentals and advanced applications", date: "11/18/26" },
     { presenter: "Kyle Klinger", topic: "Product portfolio updates and roadmaps (including Sentry HD and PHD3)", date: "12/02/26" },
