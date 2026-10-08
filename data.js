@@ -80,13 +80,21 @@ const SITE_DATA = {
       recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQC_tYldedjVSZrJihQOVOdLAVGAh3qcnzsm12WuZxkKUd4?e=2uUTDp",
       slidesLabel: "Product Engineering - Aaron Pressley.pptx",
       slidesUrl: "https://amphenolfci.sharepoint.com/:p:/s/CBS-SharePoint-Site/IQDqoXrjX5MpR7vigS7MbikhATXfliJ2uRgFy-L--1oPLp4?e=zAUqsf"
+    },
+    {
+      date: "October 7th, 2026",
+      topic: "SI for 224G and Emerging Technologies",
+      presenter: "JR Racines",
+      recordingLabel: "CBS Engineering Unplugged- SI for 224G and Emerging Technologies.mp4",
+      recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQC9P8IB9QARS76Rk1KIN7YvAfX6hizvWT7muhstT-sR934?e=v1XiYl",
+      slidesLabel: "SI for 224G and Emerging Technologies.pdf",
+      slidesUrl: "https://amphenolfci.sharepoint.com/:b:/s/CBS-SharePoint-Site/IQClWSQ8BFYlQYBvMvdtghqFAfYhEPF1ygxXRth03wlfEnI?e=Jnn1Yy"
     }
   ],
 
   // ---- Proposed Upcoming Topics and Speakers ----
   // (may change based on speaker availability)
   proposedTopics: [
-    { presenter: "JR Racines", topic: "SI for 224G and emerging technologies", date: "10/07/26" },
     { presenter: "Derek Brickner", topic: "Manufacturing and Factory Fundamentals", date: "10/21/26" },
     { presenter: "Patrick Mathews", topic: "Customer applications and real-world challenges", date: "11/04/26" },
     { presenter: "Steve Blasko", topic: "Signal Integrity fundamentals and advanced applications", date: "11/18/26" },
