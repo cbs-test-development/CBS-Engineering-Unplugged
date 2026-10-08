@@ -45,10 +45,10 @@ const SITE_DATA = {
   // top of the page. Keep "time" in the format "3:00 PM EST" (or EDT).
   // EST/EDT both mean Eastern Time; daylight saving is applied from the date.
   upcomingSession: {
-    date: "October 7th, 2026",
+    date: "October 21st, 2026",
     time: "3:00 PM EST",
-    topic: "SI for 224G and emerging technologies",
-    presenter: "JR Racines"
+    topic: "Manufacturing and Factory Fundamentals",
+    presenter: "Derek Brickner"
   },
 
   // ---- Session Archive (past sessions with recordings/slides) ----
