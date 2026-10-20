@@ -47,8 +47,8 @@ const SITE_DATA = {
   upcomingSession: {
     date: "October 21st, 2026",
     time: "3:00 PM EST",
-    topic: "Manufacturing and Factory Fundamentals",
-    presenter: "Derek Brickner"
+    topic: "Signal Integrity 101",
+    presenter: "Stephen Smith"
   },
 
   // ---- Session Archive (past sessions with recordings/slides) ----
@@ -95,8 +95,8 @@ const SITE_DATA = {
   // ---- Proposed Upcoming Topics and Speakers ----
   // (may change based on speaker availability)
   proposedTopics: [
-    { presenter: "Derek Brickner", topic: "Manufacturing and Factory Fundamentals", date: "10/21/26" },
-    { presenter: "Patrick Mathews", topic: "Customer applications and real-world challenges", date: "11/04/26" },
+    { presenter: "Stephen Smith", topic: "Signal Integrity 101", date: "10/21/26" },
+    { presenter: "Derek Brickner", topic: "Manufacturing and Factory Fundamentals", date: "11/04/26" },
     { presenter: "Steve Blasko", topic: "Signal Integrity fundamentals and advanced applications", date: "11/18/26" },
     { presenter: "Kyle Klinger", topic: "Product portfolio updates and roadmaps (including Sentry HD and PHD3)", date: "12/02/26" },
     { presenter: "Janet Wazeter", topic: "Introduction to HR and key APH resources", date: "12/16/26" },
