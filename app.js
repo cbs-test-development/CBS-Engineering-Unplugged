@@ -117,6 +117,8 @@ function startCountdown(session) {
 
   subEl.textContent = `${session.date} at ${session.time} — ${session.topic} (${session.presenter})`;
 
+  let intervalId = null;
+
   function tick() {
     const now = new Date();
     let diff = target.getTime() - now.getTime();
@@ -152,7 +154,9 @@ function startCountdown(session) {
   }
 
   tick();
-  const intervalId = setInterval(tick, 1000);
+  if (intervalId === null && target.getTime() > Date.now() - 60 * 60 * 1000) {
+    intervalId = setInterval(tick, 1000);
+  }
 }
 
 function render() {
