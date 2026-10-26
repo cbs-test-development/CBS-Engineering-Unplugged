@@ -97,7 +97,7 @@ const SITE_DATA = {
       recordingLabel: "CBS Engineering Unplugged- SI for 224G and Emerging Technologies.mp4",
       recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQA1bg8DT1hgQb-DvJkW4HO9AS1uOh4iRfr1uNSc0NaoyR4?e=Yg4Yak",
       slidesLabel: "Signal Integrity 101",
-      slidesUrl: "https://amphenolfci.sharepoint.com/:f:/s/CBS-SharePoint-Site/IgDvnAtMqymoTam_g8zx-f3JAWXUQNS9bWsncAKrIHokczM?e=8RS3hJ"
+      slidesUrl: "https://amphenolfci.sharepoint.com/:b:/s/CBS-SharePoint-Site/IQC0Yhtsh1wwQ5bguJceOachAR4atCkT542WDf9nAv-NP-0?e=bLAvWg"
     }
   ],
 
