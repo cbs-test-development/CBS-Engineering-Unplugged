@@ -45,10 +45,10 @@ const SITE_DATA = {
   // top of the page. Keep "time" in the format "3:00 PM EST" (or EDT).
   // EST/EDT both mean Eastern Time; daylight saving is applied from the date.
   upcomingSession: {
-    date: "October 21st, 2026",
+    date: "November 4th, 2026",
     time: "3:00 PM EST",
-    topic: "Signal Integrity 101",
-    presenter: "Stephen Smith"
+    topic: "Manufacturing and Factory Fundamentals",
+    presenter: "Derek Brickner"
   },
 
   // ---- Session Archive (past sessions with recordings/slides) ----
@@ -89,13 +89,21 @@ const SITE_DATA = {
       recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQC9P8IB9QARS76Rk1KIN7YvAfX6hizvWT7muhstT-sR934?e=v1XiYl",
       slidesLabel: "SI for 224G and Emerging Technologies.pdf",
       slidesUrl: "https://amphenolfci.sharepoint.com/:b:/s/CBS-SharePoint-Site/IQClWSQ8BFYlQYBvMvdtghqFAfYhEPF1ygxXRth03wlfEnI?e=Jnn1Yy"
+    },
+    {
+      date: "October 21st, 2026",
+      topic: "Signal Integrity 101",
+      presenter: "Stephen Smith",
+      recordingLabel: "CBS Engineering Unplugged- SI for 224G and Emerging Technologies.mp4",
+      recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQA1bg8DT1hgQb-DvJkW4HO9AS1uOh4iRfr1uNSc0NaoyR4?e=Yg4Yak",
+      slidesLabel: "Signal Integrity 101",
+      slidesUrl: "https://amphenolfci.sharepoint.com/:b:/s/CBS-SharePoint-Site/IQDzmWnPDZt8R4VGcxsgEIx2AZIj43tyCSnh9I_cOC_Pms8?e=MyktcR"
     }
   ],
 
   // ---- Proposed Upcoming Topics and Speakers ----
   // (may change based on speaker availability)
   proposedTopics: [
-    { presenter: "Stephen Smith", topic: "Signal Integrity 101", date: "10/21/26" },
     { presenter: "Derek Brickner", topic: "Manufacturing and Factory Fundamentals", date: "11/04/26" },
     { presenter: "Steve Blasko", topic: "Signal Integrity fundamentals and advanced applications", date: "11/18/26" },
     { presenter: "Kyle Klinger", topic: "Product portfolio updates and roadmaps (including Sentry HD and PHD3)", date: "12/02/26" },
