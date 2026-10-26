@@ -98,6 +98,7 @@ const SITE_DATA = {
       recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQA1bg8DT1hgQb-DvJkW4HO9AS1uOh4iRfr1uNSc0NaoyR4?e=Yg4Yak",
       slidesLabel: "Signal Integrity 101",
       slidesUrl: "https://amphenolfci.sharepoint.com/:b:/s/CBS-SharePoint-Site/IQDzmWnPDZt8R4VGcxsgEIx2AZIj43tyCSnh9I_cOC_Pms8?e=MyktcR",
+      slidesUrl: "https://amphenolfci.sharepoint.com/:b:/s/CBS-SharePoint-Site/IQCNbAubx3YiQZYIIT_ufp17AXB0ZhqiYAvgS9eX78HWCAk?e=enVfrF",
       slidesUrl: "https://amphenolfci.sharepoint.com/:b:/s/CBS-SharePoint-Site/IQCNbAubx3YiQZYIIT_ufp17AXB0ZhqiYAvgS9eX78HWCAk?e=enVfrF"
     }
   ],
