@@ -94,7 +94,7 @@ const SITE_DATA = {
       date: "October 21st, 2026",
       topic: "Signal Integrity 101",
       presenter: "Stephen Smith",
-      recordingLabel: "CBS Engineering Unplugged- SI for 224G and Emerging Technologies.mp4",
+      recordingLabel: "CBS Engineering Unplugged- Signal Integrity 101.mp4",
       recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQA1bg8DT1hgQb-DvJkW4HO9AS1uOh4iRfr1uNSc0NaoyR4?e=Yg4Yak",
       slidesLabel: "Signal Integrity 101",
       slidesUrl: "https://amphenolfci.sharepoint.com/:b:/s/CBS-SharePoint-Site/IQC0Yhtsh1wwQ5bguJceOachAR4atCkT542WDf9nAv-NP-0?e=Q5CvVv"
