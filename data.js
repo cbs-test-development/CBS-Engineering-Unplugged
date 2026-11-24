@@ -113,26 +113,26 @@ const SITE_DATA = {
   // ---- Proposed Upcoming Topics and Speakers ----
   // (may change based on speaker availability)
   proposedTopics: [
-    { presenter: "Steve Blasko", topic: "Signal Integrity fundamentals and advanced applications", date: "11/18/26" },
-    { presenter: "Kyle Klinger", topic: "Product portfolio updates and roadmaps (including Sentry HD and PHD3)", date: "12/02/26" },
-    { presenter: "Janet Wazeter", topic: "Introduction to HR and key APH resources", date: "12/16/26" },
-    { presenter: "David Bush", topic: "Introduction to Momentum", date: "01/13/27" },
-    { presenter: "Mike Sykes", topic: "Mechanical component design", date: "01/27/27" },
-    { presenter: "Merrick Moeller", topic: "SI and test Engineering", date: "02/10/27" },
-    { presenter: "Michael Long", topic: "Introduction to Applications development Engineering", date: "02/24/27" },
-    { presenter: "Chris Koviloski", topic: "Mechanical Engineering at Amphenol", date: "03/10/27" },
-    { presenter: "Chris Young", topic: "What does CX mean for Amphenol", date: "03/24/27" },
-    { presenter: "Peter Muller", topic: "NPI Quality", date: "04/07/27" },
-    { presenter: "David Bush", topic: "Amphenol processes, tools, and organizational topics", date: "04/21/27" },
-    { presenter: "Rich Gauthier", topic: "Finance Basics", date: "05/05/27" },
-    { presenter: "Scott Coyle", topic: "Program Management at CBS", date: "05/19/27" },
-    { presenter: "PLMs", topic: "Customer profiles (NVIDIA, AMD, Google, MSFT, AWS)", date: "06/02/27" },
-    { presenter: "Neil Delaplane", topic: "What is Field Service", date: "06/16/27" },
-    { presenter: "Kaitlyn Rosener", topic: "Introduction Mechanical Integrity", date: "06/30/27" },
-    { presenter: "Bradley Schultz", topic: "What is Failure Analysis", date: "07/14/27" },
-    { presenter: "Daid Theiss", topic: "CT technology at Amphenol", date: "07/28/27" },
-    { presenter: "Ian Derstler", topic: "Floats", date: "08/11/27" },
-    { presenter: "Michael Long", topic: "Lessons learned on CC", date: "08/25/27" }
+    { presenter: "Steve Blasko", topic: "Signal Integrity fundamentals and advanced applications", date: "12/02/26" },
+    { presenter: "Kyle Klinger", topic: "Product portfolio updates and roadmaps (including Sentry HD and PHD3)", date: "12/16/26" },
+    { presenter: "Janet Wazeter", topic: "Introduction to HR and key APH resources", date: "01/13/27" },
+    { presenter: "David Bush", topic: "Introduction to Momentum", date: "01/27/27" },
+    { presenter: "Mike Sykes", topic: "Mechanical component design", date: "02/10/27" },
+    { presenter: "Merrick Moeller", topic: "SI and test Engineering", date: "02/24/27" },
+    { presenter: "Michael Long", topic: "Introduction to Applications development Engineering", date: "03/10/27" },
+    { presenter: "Chris Koviloski", topic: "Mechanical Engineering at Amphenol", date: "03/24/27" },
+    { presenter: "Chris Young", topic: "What does CX mean for Amphenol", date: "04/07/27" },
+    { presenter: "Peter Muller", topic: "NPI Quality", date: "04/21/27" },
+    { presenter: "David Bush", topic: "Amphenol processes, tools, and organizational topics", date: "05/05/27" },
+    { presenter: "Rich Gauthier", topic: "Finance Basics", date: "05/19/27" },
+    { presenter: "Scott Coyle", topic: "Program Management at CBS", date: "06/02/27" },
+    { presenter: "PLMs", topic: "Customer profiles (NVIDIA, AMD, Google, MSFT, AWS)", date: "06/16/27" },
+    { presenter: "Neil Delaplane", topic: "What is Field Service", date: "06/30/27" },
+    { presenter: "Kaitlyn Rosener", topic: "Introduction Mechanical Integrity", date: "07/14/27" },
+    { presenter: "Bradley Schultz", topic: "What is Failure Analysis", date: "07/28/27" },
+    { presenter: "Daid Theiss", topic: "CT technology at Amphenol", date: "08/11/27" },
+    { presenter: "Ian Derstler", topic: "Floats", date: "08/25/27" },
+    { presenter: "Michael Long", topic: "Lessons learned on CC", date: "09/08/27" }
   ]
 
 };
