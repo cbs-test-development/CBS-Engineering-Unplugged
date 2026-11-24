@@ -45,10 +45,10 @@ const SITE_DATA = {
   // top of the page. Keep "time" in the format "3:00 PM EST" (or EDT).
   // EST/EDT both mean Eastern Time; daylight saving is applied from the date.
   upcomingSession: {
-    date: "November 4th, 2026",
+    date: "December 2nd, 2026",
     time: "3:00 PM EST",
-    topic: "Manufacturing and Factory Fundamentals",
-    presenter: "Derek Brickner"
+    topic: "Signal Integrity fundamentals and advanced applications",
+    presenter: "Steve Blasko"
   },
 
   // ---- Session Archive (past sessions with recordings/slides) ----
@@ -98,13 +98,21 @@ const SITE_DATA = {
       recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQA1bg8DT1hgQb-DvJkW4HO9AS1uOh4iRfr1uNSc0NaoyR4?e=Yg4Yak",
       slidesLabel: "Signal Integrity 101",
       slidesUrl: "https://amphenolfci.sharepoint.com/:b:/s/CBS-SharePoint-Site/IQC0Yhtsh1wwQ5bguJceOachAR4atCkT542WDf9nAv-NP-0?e=Q5CvVv"
+    },
+    {
+      date: "November 4th, 2026",
+      topic: "Manufacturing and Factory Fundamentals",
+      presenter: "Derek Brickner",
+      recordingLabel: "CBS Engineering Unplugged- Manufacturing and Factory Fundamentals.mp4",
+      recordingUrl: "https://amphenolfci.sharepoint.com/:v:/s/CBS-SharePoint-Site/IQDAB6vAIR_MT7RI_Ul4LMEIASyim2sYUi-5N3euTEwBz1M?e=jHpwGH",
+      slidesLabel: "Manufacturing and Factory Fundamentals",
+      slidesUrl: "https://amphenolfci.sharepoint.com/:p:/s/CBS-SharePoint-Site/IQBCY5ObCiuySYZJ48PV8XyyAUsXIh7bEXXsktAV3Smo2Oc?e=ejq4N7"
     }
   ],
 
   // ---- Proposed Upcoming Topics and Speakers ----
   // (may change based on speaker availability)
   proposedTopics: [
-    { presenter: "Derek Brickner", topic: "Manufacturing and Factory Fundamentals", date: "11/04/26" },
     { presenter: "Steve Blasko", topic: "Signal Integrity fundamentals and advanced applications", date: "11/18/26" },
     { presenter: "Kyle Klinger", topic: "Product portfolio updates and roadmaps (including Sentry HD and PHD3)", date: "12/02/26" },
     { presenter: "Janet Wazeter", topic: "Introduction to HR and key APH resources", date: "12/16/26" },
